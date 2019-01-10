@@ -6,6 +6,9 @@ import org.apache.spark.mllib.tree.model.DecisionTreeModel
 import org.apache.spark.mllib.util.MLUtils
 import org.apache.spark.{SparkConf, SparkContext}
 
+/**
+  * 决策树模型的训练
+  */
 object DecisionTreeSelf {
   def main(args: Array[String]) {
     //1 构建Spark对象
