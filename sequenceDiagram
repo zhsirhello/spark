@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-24T03:10:03.848Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="j6ugR4A1yLUlf_d_sn_u" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-24T03:20:34.570Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="blDln0sJUiOSNNFbf-Dk" version="15.2.9" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1632" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -256,6 +256,24 @@
         </mxCell>
         <mxCell id="4qku6NFVS1GcGwUYlYel-17" value="删除临时权限" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-609.25" y="2520" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4qku6NFVS1GcGwUYlYel-21" value="查找已接受或已生效且在委托时间内的委托关系" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="2600" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4qku6NFVS1GcGwUYlYel-22" value="将委托人在手任务分配给受托人" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="2700" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4qku6NFVS1GcGwUYlYel-23" value="查找已生效且超出委托时间的委托关系" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-620" y="2600" width="129.25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4qku6NFVS1GcGwUYlYel-24" value="是否需要委托反还" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-618" y="2700" width="116" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4qku6NFVS1GcGwUYlYel-25" value="查找已提交且时间超过委托时间范围的委托关系" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-425" y="2600" width="129.25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4qku6NFVS1GcGwUYlYel-26" value="更新状态为失效状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-408.75" y="2700" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
