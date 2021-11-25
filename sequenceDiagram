@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-24T07:22:55.462Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="iAwgbryWe76ItHDBK8bF" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-25T01:17:48.719Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="L11JsvilE7ViIhVuZ4Qu" version="15.2.9" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="2620" dy="831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -363,6 +363,15 @@
         </mxCell>
         <mxCell id="4qku6NFVS1GcGwUYlYel-53" value="删除临时角色" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4qku6NFVS1GcGwUYlYel-46">
           <mxGeometry x="84.25" y="60" width="131.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4qku6NFVS1GcGwUYlYel-77" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="2400" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4qku6NFVS1GcGwUYlYel-78" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="2350" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4qku6NFVS1GcGwUYlYel-81" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="2950" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
