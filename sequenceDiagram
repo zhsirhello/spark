@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-07T05:31:48.946Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="XzInFUMW2ccKVKWbhDyQ" version="15.8.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-07T05:50:28.741Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="-HShUPGu2dP0cHi4_W69" version="15.8.7" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="2482" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2722" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -447,6 +447,63 @@
         </mxCell>
         <mxCell id="T8M-bLSSmwiobPKHnBOT-24" value="比较lastupdate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-945" y="3360" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T8M-bLSSmwiobPKHnBOT-25" value="table1(检查点、检查点分组)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="3830" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="T8M-bLSSmwiobPKHnBOT-26" value="检查点1 v1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="T8M-bLSSmwiobPKHnBOT-25">
+          <mxGeometry y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T8M-bLSSmwiobPKHnBOT-27" value="检查点1 v2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="T8M-bLSSmwiobPKHnBOT-25">
+          <mxGeometry y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T8M-bLSSmwiobPKHnBOT-28" value="j检查点2 v1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="T8M-bLSSmwiobPKHnBOT-25">
+          <mxGeometry y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T8M-bLSSmwiobPKHnBOT-29" value="table2&#xa;展示字段、顺序、卡片名称" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-900" y="3830" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="T8M-bLSSmwiobPKHnBOT-30" value="检查点1 v1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="T8M-bLSSmwiobPKHnBOT-29">
+          <mxGeometry y="30" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T8M-bLSSmwiobPKHnBOT-31" value="检查点2 v1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="T8M-bLSSmwiobPKHnBOT-29">
+          <mxGeometry y="60" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T8M-bLSSmwiobPKHnBOT-32" value="检查点2 v2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="T8M-bLSSmwiobPKHnBOT-29">
+          <mxGeometry y="90" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T8M-bLSSmwiobPKHnBOT-33" value="table3&#xa;展示字段关联关系" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-587.5" y="3830" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="T8M-bLSSmwiobPKHnBOT-34" value="检查点1 v1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="T8M-bLSSmwiobPKHnBOT-33">
+          <mxGeometry y="30" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T8M-bLSSmwiobPKHnBOT-35" value="j检查点2 v1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="T8M-bLSSmwiobPKHnBOT-33">
+          <mxGeometry y="60" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T8M-bLSSmwiobPKHnBOT-36" value="检查点2 v2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="T8M-bLSSmwiobPKHnBOT-33">
+          <mxGeometry y="90" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T8M-bLSSmwiobPKHnBOT-37" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-656" y="4000" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T8M-bLSSmwiobPKHnBOT-38" value="查询检查点信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1125" y="4020" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T8M-bLSSmwiobPKHnBOT-39" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1040" y="4030" as="sourcePoint" />
+            <mxPoint x="-660" y="4040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T8M-bLSSmwiobPKHnBOT-41" value="根据jobcheckdetailhis的版本信息，查询上述三个表，替换对应信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1020" y="4150" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T8M-bLSSmwiobPKHnBOT-42" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.419;exitY=-0.037;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="T8M-bLSSmwiobPKHnBOT-41" target="T8M-bLSSmwiobPKHnBOT-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-910" y="4140" as="sourcePoint" />
+            <mxPoint x="-890" y="4040" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
